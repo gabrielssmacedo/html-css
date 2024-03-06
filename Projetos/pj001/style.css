@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+img{
+    width: 300px;
+    height: 300px;
+}
+body{
+   background-color: rgb(41, 41, 41);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(253, 173, 0);
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: rgb(255, 251, 0);
+}
+a{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}

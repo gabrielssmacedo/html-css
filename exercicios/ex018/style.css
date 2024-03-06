@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    background-color: rgb(75, 75, 75);
+}
+
+section {
+    display: inline-block;
+     padding: 5px 30px;
+     margin: 0px auto;
+ }
+ section > img {
+    width: 300px;
+    height: 300px;
+ }
+
+header{
+    background-color: rgba(255, 187, 0, 0.89);
+    padding: 7px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 7px -8px 4px 10px rgb(0 0 0 / 44%);
+    
+}
+nav{
+    background-color: gray;
+    padding: 5px;
+    margin:auto;
+    border-radius: 4px;
+
+}
+.paginas{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    
+}
+.paginas:hover, a {
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+main{
+    background-color: white;
+   margin: 10px;
+   padding-top: 25px;
+    height: 1680px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.356);
+    border-radius: 1%;
+}
+main > h2 {
+    text-align: center;
+}
+main > #em-alta {
+    text-align: center;
+    padding: 5px auto 10px auto;
+    background-color: lightgray;
+}
+main > #garantias {
+text-align: left;
+}
+
+footer > section > a > img{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    margin: 5px;
+}
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer > .mid-socInst {
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 1px;
+}
+ div.mid-socInst:hover {
+   background-color: #6d6d6d;
+}
+
+header>h1{
+    text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.623);
+    font-family: fantasy;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 4em;
+}

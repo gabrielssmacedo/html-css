@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/ft-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/ft-m.png" type="image/png">
+        <img src="imagens/ft-g.png" alt="Foto grande pc">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+
+    <audio preload="metadata" controls>
+        <source src="midias/Aggressive Zombie Snarls.mp3" type="audio/mpeg">
+        <source src="midias/FunkyCarioca-Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="midias/audio-ogg.ogg" type="audio/ogg">
+        <p>Seu navegador não consegue reproduzir os audios</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype'); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color:#82c5a8 ;
+    margin: auto;
+    
+}
+h2 {
+    font-family: 'android', sans-serif;
+    color: #125739;
+    background-image: linear-gradient(to right, #aeffdb 3%,#ffffff);
+}
+header{
+    background-image: linear-gradient(to top, #1b5039 0%, #02b467 73%);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+    box-shadow: 0px 1px 7px 2px #0000006e; 
+    
+}
+header > h1 {
+    text-shadow: 1px 1px 2px black;
+    margin-top: 30px;
+   
+   
+}
+header > p{
+    text-shadow: 1px 1px 2px black;
+   margin-top: 30px;
+   margin-bottom: 60px;
+   font-size: 1.2em;
+   font-weight: lighter;
+}
+nav, .pagina {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.pagina {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #508f08;
+}
+main{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 1px 7px 2px #0000006e;  
+    
+}
+
+ p {
+    font-family: verdana, arial, sans-serif
+}
+footer{
+    background-color: #044c2d;
+    
+    color:white;
+    text-align: center;
+   padding-bottom: 1px;
+
+}
+
+img{
+   width: 100%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#bugdroidimg {
+    width: 300px;
+    margin: 20px 200px 20px 200px;
+}
+
+main > .conteudo > article > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.video{
+    margin: auto;
+    background-color: #1b5039;
+    width: 700px;
+   
+}
+.video > iframe {
+    margin: 35px 65px;
+}
+
+#cima-apmais{
+    background-color: #04b565;
+    color: white;
+    margin-bottom: auto;
+    margin-top: 40px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 7px 7px 0px 0px;;
+}
+#versoes-android {
+    background-color: #cefde9;
+    margin-top: auto;
+    padding: 5px 3px 13px 3px;
+    text-align: justify;
+    border-radius: 0px 0px 7px 7px;
+    font-size: 1em;
+}
+#cima-apmais > h3 {
+   margin: 10px;
+}
+#versoes-android > p {
+    padding: 0px 12px 0px 12px;
+    text-indent: 30px;
+}
+#umaquatro, #quatroanove {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.externalinks {
+    color: #007a45;
+    font-weight: bold;
+    text-decoration: none;
+}
+.listlinks{
+    color: black;
+}
