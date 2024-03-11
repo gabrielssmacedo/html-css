@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+}
+
+header {
+    background-color: black;
+    min-height: 150px;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+header > p{
+    padding: 20px;
+}
+
+#imagem1 {
+    background-image: url(imagens/background001.jpg);
+    height: 400vh;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+
+#imagem2 {
+    background-image: url(imagens/background002.jpg);
+    height: 300vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article {
+    background-color: white;
+    min-height: 1000px;
+}
+
+.solido {
+    min-height: 1400px;
+}
+
+.translucido {
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    min-height: 10px;
+    font-size: 16px;
+}
