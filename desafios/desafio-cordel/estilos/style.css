@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Lilita+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte01: verdana, geneva, tahoma, sans-serif;
+    --fonte02: "Lilita One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 7vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--fonte01);
+}
+
+header a, footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 80px;
+    font-family: var(--fonte03);
+    font-size: 3vw;
+    
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem {
+    background-color: #0000009a;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: inset 0px 2px 20px 13px rgba(0, 0, 0, 0.432);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #0000008e;
+}
+
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > img {
+    width: 20% ;
+    display: inline-block;
+    position: absolute;
+}
+
+section#normalimg01 {
+   background-image: url(../imagens/mensagemlogo.png);
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: 30%;
+   transform: translate(-60px);
+}
+
+section#normalimg02 {
+    background-image: url(../imagens/emojibeijo.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    transform: translate(-60px);
+}
+
+section#normalimg03 {
+    background-image: url(../imagens/internetlogo.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    transform: translate(-60px);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: left;
+    padding: 10px;
+    height: 30px;
+    position: relative;
+}
+
+footer > p {
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    padding-left: 20px;
+    font-style: italic;
+   
+}
+
+.redesocial {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.redesocial:hover {
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.76);
+    background-color: rgb(177, 177, 177);
+}
+
+footer > span#linkedin {
+    left:90%;
+    top:0%;
+}
+
+footer > span#GitHub {
+    left:85%;
+    top:0%;
+}
+
+footer > span.redesocial >  a > img {
+    width: 25px;
+
+}
