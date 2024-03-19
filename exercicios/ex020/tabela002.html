@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            margin: auto;
+        }
+
+        caption {
+            background-color: rgb(53, 53, 53);
+            color: white;
+            font-weight: bold ;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        td.num {
+            text-align: center;
+           
+        }
+
+        td#campeao {
+            background-color: rgba(0, 100, 0, 0.425);
+        }
+        
+        td.rebaixados {
+            background-color: rgba(139, 0, 0, 0.473);
+        }
+
+        tfoot {
+            border: 1px solid black;
+        }
+        .Legenda {
+            border: none;
+            font-size: 13px;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <table>
+        <caption> Classificação do Paulistão</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="text-align: left;">Clube</th>
+                <th scope="col">Pts</th>
+                <th scope="col">Pj</th>
+                <th scope="col">Vit</th>
+                <th scope="col">GM</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="campeao">Corinthians</td>
+                <td class="num">48</td>
+                <td class="num">16</td>
+                <td class="num">16</td>
+                <td class="num">100</td>
+            </tr>
+            <tr>
+                <td>Santos</td>
+                <td class="num">46</td>
+                <td class="num">16</td>
+                <td class="num">15</td>
+                <td class="num">50</td>
+            </tr>
+            <tr>
+                <td>Palmeiras</td>
+                <td class="num">44</td>
+                <td class="num">16</td>
+                <td class="num">14</td>
+                <td class="num">26</td>
+            </tr>
+            <tr>
+                <td class="rebaixados">São Paulo</td>
+                <td class="num">34</td>
+                <td class="num">16</td>
+                <td class="num">10</td>
+                <td class="num">30</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th class="Legenda" style="color: darkgreen;">Campeão</th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+            </tr>
+
+            <tr>
+                <th scope="row" class="Legenda" style="color:red">Rebaixado</th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+                <th class="Legenda"></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
