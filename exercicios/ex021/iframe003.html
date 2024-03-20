@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe várias páginas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #iframe1 {
+            width: 97vw;
+            height: 40vh;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Várias páginas no Iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor, provident reiciendis molestias harum ullam! Ipsam atque perferendis voluptatum velit explicabo doloribus laborum ipsum minus. Vero est eaque fugiat ea!
+    Lorem ipsum dolor sit amet  consectetur adipisicing elit. Illo mollitia, laboriosam a ex id nam! Eum consectetur pariatur odio dolorum quis dignissimos repellendus suscipit in reprehenderit maiores, officiis, accusamus vel.
+    </p>
+
+    <h2>Escolha um dos lins abaixo</h2>
+    
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="iframe">Página 1</a></li>
+        <li><a href="paginasextras/pagina002.html" target="iframe">Página 2</a></li>
+        <li><a href="paginasextras/pagina003.html" target="iframe">Página 3</a></li>
+    </ul>
+
+    <iframe id="iframe1" srcdoc="<h1> Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet  consectetur adipisicing elit. Illo mollitia, laboriosam a ex id nam! Eum consectetur pariatur odio dolorum quis dignissimos repellendus suscipit in reprehenderit maiores, officiis, accusamus vel.</p>" frameborder="1" name="iframe"> Seu computador não é compatível com Iframes</iframe>
+</body>
+</html>
