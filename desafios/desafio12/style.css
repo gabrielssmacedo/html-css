@@ -11,11 +11,13 @@ body {
 
 iframe {
     position: absolute;
-    width: 320px;
-    height: 568px;
-    display: block;
-    margin: auto;
-    
+    width: 268px;
+    height: 475px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45.5%);
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 div {
