@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        legend {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .botao {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.js">
+        <fieldset>
+            <legend>Escolaridade</legend>
+            <p>
+                <input type="radio" name="escol" id="iemin" required>
+                <label for="iemin">Ensino Médio Incompleto</label><br>
+                <input type="radio" name="escol" id="iemco">
+                <label for="iemco">Ensino Médio Completo</label><br>
+                <input type="radio" name="escol" id="iesin">
+                <label for="iesin">Ensino Superior Incompleto</label><br>
+                <input type="radio" name="escol" id="iesco">
+                <label for="iesco">Ensino Superior Completo</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Eu tenho em minha casa</legend>
+            <input type="checkbox" name="gel" id="igel" >
+            <label for="igel">Geladeira com Freezer</label><br>
+            <input type="checkbox" name="phone" id="iphone">
+            <label for="iphone">Smartphone</label><br>
+            <input type="checkbox" name="garagem" id="igaragem">
+            <label for="igaragem">Garagem ou Vaga de Estacionamento</label>
+        </fieldset>
+
+        <input class="botao" type="submit" value="Enviar">
+        <input class="botao" type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
