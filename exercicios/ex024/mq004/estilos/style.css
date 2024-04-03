@@ -41,6 +41,13 @@ img {
     margin: auto;
 }
 
+footer {
+    display: none;
+    font-size: 0.6em;
+    text-align: center;
+    font-style: italic;
+}
+
 img#phone { display:block; }
 img#tablet { display: none; }
 img#print { display: none; }
