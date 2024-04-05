@@ -13,8 +13,7 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span id="burguer" class="material-symbols-outlined"onclick="clickMenu()">menu</span>
-
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
        <menu id="itens">
             <ul>
                 <li><a href="">Opção 1</a></li>
